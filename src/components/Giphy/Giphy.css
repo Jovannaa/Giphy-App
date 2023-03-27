@@ -1,0 +1,44 @@
+.search {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+    border-color: rgb(115, 206, 222);
+    margin: 0 auto;
+}
+
+.gifsContainer {
+  display: flex;
+  height: 400px;
+  width: 300px;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+
+  
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: stretch;
+  padding: 20px; */
+}
+
+.card {
+  padding: 20px;
+  width: 340px;
+  height: 300px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 0 rgb(0 0 0 / 0.2);
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  padding: 10px;
+  color: #cecbcbfe;
+}
